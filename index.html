@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Personal portfolio</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" class="scrollspy-example" tabindex="0" class="position-relative">
   <nav class="navbar d-flex navbar-expand-lg navbar-light bg-light fixed-top w-100">
     <div class="container-fluid">
       <a class="navbar-brand text-primary" href="#">MyLogo</a>
@@ -24,15 +24,15 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav nav-pills ms-auto">
           <li class="nav-item ">
-            <a class="nav-link  text-primary" aria-current="page" href="#">Portfolio</a>
+            <a class="nav-link  " aria-current="page" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-primary" aria-current="page" href="#">About</a>
+            <a class="nav-link " aria-current="page" href="#about_me">About</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-primary" aria-current="page" href="#">Contact</a>
+            <a class="nav-link " aria-current="page" href="#contact">Contact</a>
           </li>
           
         </ul>
@@ -58,7 +58,7 @@
     </div>
   </section>
 
-  <section class="projects container">
+  <section class="projects container" id="portfolio">
     <ul class="projects-list">
       <li class="card mb-3 d-flex p-2 my-5">
         
@@ -410,7 +410,7 @@
   </section>
 
   <footer class="">
-    <div class="about-me-section d-lg-flex mx-auto container p-5">
+    <div class="about-me-section d-lg-flex mx-auto container p-5" id="about_me">
       <div class="about-me col-lg-4 col-12 ms-auto">
         <h2>About Myself</h2>
         <p>Hello I’m a software developer! I can help you build 
@@ -484,7 +484,7 @@
 
     </div>
     
-    <section class="contact-me text-light py-5"> 
+    <section class="contact-me text-light py-5" id="contact"> 
       <div class="contact container col-lg-4 py-5 d-flex flex-column align-items-center">
         <h2>Contact me</h2>
         <p class="my-4">
