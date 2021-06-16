@@ -10,3 +10,11 @@
   margin: 5px 15px;
 }
 
+.contact-me {
+  background-color: rgb(91, 91, 206);
+  background-image: url("./img/desktop-form-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10%;
+}
+
